@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int a, n, contador=0;
+  cin>>a;
+  cin>>n;
+  for(int i=0; i<n; i++){
+    int f;
+    cin>>f;
+    if(f*a>39999999){
+      contador=contador+1;
+    }
+  }
+  printf("%d\n", contador);
+  return 0;
+}
